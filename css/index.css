@@ -1,0 +1,67 @@
+/* hero */
+.hero {
+    padding: 2% 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    gap: 15px;
+    height: 60vh;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero div {
+    border-radius: 10px;
+    padding: 1% 2%;
+    transition: 0.3s;
+}
+
+.hero .intro-info {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), #0d6efd,rgb(0, 0, 0));
+}
+
+.hero .intro-info:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+/* skills */
+.skills {
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.skills .carousel {
+    margin-top: 1%;
+    background-color: rgb(20, 20, 20);
+    padding: 2% 0;
+}
+
+.skills .carousel-item img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlighted-proj {
+    font-family: "Work Sans", sans-serif;
+    padding: 0 1% 1% 3%;
+}
+
+@media (max-width: 991.5px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero .intro {
+        text-align: center;
+    }
+
+    .hero div {
+        width: 100%;
+    }
+}
