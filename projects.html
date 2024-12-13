@@ -16,6 +16,28 @@
         <link rel="icon" href="img/favicon.png">
     </head>
     <body>
+        <!-- Discord ID Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content text-bg-dark">
+                    <div class="modal-body">
+                        Discord ID: spinoraptor19
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Phone Modal -->
+        <div class="modal fade" id="phoneModal" tabindex="-1" aria-labelledby="phoneModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content text-bg-dark">
+                    <div class="modal-body">
+                        Phone Number: +91 74831 63197
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
@@ -32,7 +54,7 @@
                             <a class="nav-link" href="contact.html">Contact Me</a>
                         </li>
                         <li class="nav-item margined">
-                            <a class="nav-link" href="projects.html">Projects</a>
+                            <a class="nav-link" href="projects.html">Projects & Accomplishments</a>
                         </li>
                         <li class="nav-item dropdown margined">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -50,6 +72,110 @@
                 </div>
             </div>
         </nav>
+
+        <div class="programming">
+            <h1>Programming</h1>
+            <div class="row" style="margin: 2% 0;">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin project" style="margin-bottom: 5%;">
+                    <h2>RaptorExpenses(Go)</h2>
+                    <a href="github.com/srisudarshanrg/raptor-go-expense-tracker" class="btn btn-primary" style="width: 80%;"><i class="fa-brands fa-github"></i> Repository</a>
+                    <div class="proj-desc">
+                        <h5>Tools & Languages:</h5>
+                        <ul>
+                            <li>Server: Go</li>
+                            <li>Database: PostgreSQL</li>
+                            <li>Frontend: HTML, CSS, JavaScript</li>
+                            <li>Frameworks: Bootstrap, FontAwesome, Chart.js, Soda Migrations</li>
+                            <li>IDE: Visual Studio Code</li>
+                            <li>Git Bash Terminal</li>
+                            <li>DBeaver(Viewing Database)</li>
+                        </ul>
+                        <h5>Picture:</h5>
+                        <img src="https://ucarecdn.com/ae310c05-8428-48be-8500-ed876c3e7373/projectimg.png" alt="" style="width: 100%;">
+                        <a href="https://youtu.be/Q4uzJ7VfPC0" class="btn btn-danger" style="margin-top: 5%;"><i class="fa-brands fa-youtube"></i> Video</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin project" style="margin-bottom: 5%;">
+                    <h2>RaptorExpenses(Flask)</h2>
+                    <div class="btn-group gap-1" style="width: 80%;">
+                        <a href="github.com/srisudarshanrg/raptor-flask-expense-tracker" class="btn btn-primary"><i class="fa-brands fa-github"></i> Repository</a>
+                        <a href="http://sudarshanraptor1900.pythonanywhere.com" class="btn btn-primary"><i class="fa-solid fa-globe"></i> URL</a>
+                    </div>
+                    <div class="proj-desc">
+                        <h5>Tools & Languages:</h5>
+                        <ul>
+                            <li>Server: Flask</li>
+                            <li>Database: Flask_SQLAlchemy</li>
+                            <li>Frontend: HTML, CSS, JavaScript</li>
+                            <li>Frameworks: Bootstrap, FontAwesome, Chart.js, Vannilajs Datepicker</li>
+                            <li>IDE: Visual Studio Code</li>
+                            <li>Git Bash Terminal</li>
+                            <br>
+                        </ul>
+                        <h5>Picture:</h5>
+                        <img src="https://ucarecdn.com/59812cdf-b217-452c-85c7-3ac54b7a37a9/project_img.png" alt="" style="width: 100%;">
+                        <a href="https://youtu.be/mnICUi5t36k" class="btn btn-danger" style="margin-top: 5%;"><i class="fa-brands fa-youtube"></i> Video</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 project" style="margin-bottom: 5%;">
+                    <h2>ResourceRadar(Go)</h2>
+                    <a href="github.com/srisudarshanrg/go-solar-analysis" class="btn btn-primary" style="width: 80%;"><i class="fa-brands fa-github"></i> Repository</a>
+                    <div class="proj-desc">
+                        <h5>Tools & Languages:</h5>
+                        <ul>
+                            <li>Server: Go</li>
+                            <li>Database: PostgreSQL</li>
+                            <li>Frontend: HTML, CSS, JavaScript</li>
+                            <li>Frameworks: Bootstrap, FontAwesome, Soda Migrations</li>
+                            <li>IDE: Visual Studio Code</li>
+                            <li>Git Bash Terminal</li>
+                            <li>DBeaver(Viewing Database)</li>
+                        </ul>
+                        <h5>Picture:</h5>
+                        <img src="https://ucarecdn.com/6c568beb-4fad-4194-9ef5-f78c965e8e76/something.png" alt="" style="width: 100%;">
+                        <a href="" class="btn btn-danger" style="margin-top: 5%;"><i class="fa-brands fa-youtube"></i> Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- piano -->
+        <div class="piano">
+            <h1>Piano</h1>
+            <h4 style="margin-top: 1%;">Trinity</h4>
+            <p>Grade 1(Theory) Exam: 97/100</p>
+            <p>Grade 1(Practical) Exam: 89/100</p>
+            <br>
+            <p>Grade 2(Theory) Exam: 96/100</p>
+            <p>Grade 2(Practical) Exam: Not Published</p>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-links">
+                    <h2 class="footer-header">Links</h2>
+                    <a href="" class="btn btn-dark"><i class="fa-brands fa-github"></i> GitHub</a><br>
+                    <a href="" class="btn btn-danger" style="margin-top: 1%;"><i class="fa-brands fa-instagram"></i> Instagram</a><br>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-top: 1%;"><i class="fa-brands fa-discord"></i> Discord</button>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-highlighted-proj">
+                    <h2 class="footer-header">Highlighted Projects</h2>
+                    <a href="http://github.com/srisudarshanrg/raptor-go-expense-tracker" class="btn btn-primary"><i class="fa-brands fa-github"></i> RaptorExpenses(Go)</a><br>
+                    <a href="http://sudarshanraptor1900.pythonanywhere.com" class="btn btn-primary" style="margin-top: 1%;"><i class="fa-solid fa-globe"></i> RaptorExpenses(Flask)</a><br>
+                    <a href="http://github.com/srisudarshanrg/go-solar-analysis" class="btn btn-primary" style="margin-top: 1%;"><i class="fa-brands fa-github"></i> ResourceRadar</a><br>
+                    <a href="http://github.com/srisudarshanrg/python-calculator" class="btn btn-primary" style="margin-top: 1%;"><i class="fa-brands fa-github"></i> RaptorCalc</a>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h2 class="footer-header">Contact</h2>
+                    <a href="mailto:srisudarshanrg@gmail.com" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Email</a><br>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#phoneModal" style="margin-top: 1%;"><i class="fa-solid fa-phone"></i> Phone</button>
+                </div>
+            </div>
+        </div>
 
         <!-- bootstrap js -->
         <script src="https://kit.fontawesome.com/2ce79bf423.js" crossorigin="anonymous"></script>

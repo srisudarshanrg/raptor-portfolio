@@ -8,6 +8,12 @@ body {
     color: #fff;
 }
 
+/* modal */
+.modal {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* navbar */
 nav {
     font-family: "Work Sans", sans-serif;
 }
@@ -31,6 +37,38 @@ nav {
 
 .row {
     width: 100%;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(20, 20, 20);
+    margin: 2%;
+    border-radius: 5px;
+    padding: 3% 0;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 0 15px #0d6efd;
+    -webkit-box-shadow: 0 0 15px #0d6efd;
+}
+
+.footer .row {
+    width: 100%;
+}
+
+.footer-header {
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+
+.footer .row div {
+    text-align: center;
+}
+
+.footer-links {
+    border-right: 1px solid rgb(100, 100, 100);
+}
+
+.footer-highlighted-proj {
+    border-right: 1px solid rgb(100, 100, 100);
 }
 
 @media (max-width: 991.5px) {
